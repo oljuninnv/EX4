@@ -17,3 +17,15 @@
 4.2 CompareToTester Class, void test
 Создать класс CompareToTester в пакете tests, определить в нем метод, который тестирует метод compareTo на случайно сгенерированных двух строках 1000 раз. Результат метода compareTo проверяется стандартным методом compareTo из класса String, при верности теста выводить sout в формате: ---------test номер_теста is successful, при неверности выводить serr в формате: ---------test номер_теста is invalid.
 
+#Структура проекта
+
+- .idea - файлы конфигурации ide IntelliJ IDEA
+- src/main/java/org.example/StringOperator.java - файл, содержащий в себе класс для выполнения лексикографического сравнения
+- src/main/java/org.example/StringOperator.java - файл, содержащий в себе класс для генерации случайной строки
+- src/main/java/org.example/Main.java - файл, содержащий в себе класс с выводом всех строк и результат сравнения
+- src/test/java/CompareToTester.java - файл, содержащий в себе тест для написанного класса
+
+  #Использованый стек технологий
+
+  -Язык программирования - Java
+  -IDE - IntelliJ IDEA
